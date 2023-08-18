@@ -7,7 +7,7 @@ import path from 'path'
 
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN)
 
-bot.command('/reels', async ctx => {
+bot.command('reels', async ctx => {
     try {
         /* We do chat/group control because we don't want +18 posts 
         to be downloaded and posted to the group using bots. 
