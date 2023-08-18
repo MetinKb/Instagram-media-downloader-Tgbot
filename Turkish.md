@@ -69,7 +69,7 @@ Kullanıcıdan video linkini alacağımız komutu belirliyoruz. Eğer botunuza b
 
 <pre>
 <code class="language-javascript">
-bot.command('/reels', async ctx => {})
+bot.command('reels', async ctx => {})
 </code>
 </pre>
 <button class="btn" data-clipboard-target="#code"></button>
