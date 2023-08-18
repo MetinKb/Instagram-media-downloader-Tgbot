@@ -26,7 +26,7 @@ Dotenv kütüphanesi için `.env` isminde bir dosya oluşturuyoruz. Bu dosyada A
 
 ![4](https://github.com/MetinKb/Instagram-media-downloader-Tgbot/assets/114526516/b9e428e0-0194-42ab-b9c6-9dbcc722a037)
 
-### Şimdi botumuzu kodlamak için her şeye hazırız! O zaman app.js dosyasına geçelim ve başlayalım.<br>
+### Şimdi botumuzu kodlamak için her şeye sahibiz! O zaman app.js dosyasına geçelim ve başlayalım.<br>
 Yazımızın başında module yapısından bahsetmiştim. Eğer module yapısını kullandıysanız indirdiğimiz NodeJS kütüphanelerini app.js dosyasına aşağıdaki gibi dahil edeceğiz.<br>
 
 <pre>
