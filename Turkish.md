@@ -1,6 +1,6 @@
 ## Buraya kadar geldiysen hadi başlayalaım!
 
-### Öncelikle README.md dosyasını okumanı ve gerekli bilgilendirmeyi almanı istiyorum. Eğer okuduysan bundan sonraki süreç için başarılar diliyorum.
+### İlk olarak README.md dosyasını okumanı ve gerekli bilgilendirmeyi almanı istiyorum. Eğer okuduysan bundan sonraki süreç için başarılar diliyorum.
 
 Öncelikle kodları [Visual Studio Code](https://code.visualstudio.com/) kullanarak yazacağız. Daha sonra kodları yazacağımız bir klasöre ihtiyacımız var. Terminalden veya masaüstünden bir adet dosya oluşturmalısınız. Ben dosyamın ismini 'ig-downloader' koydum. Dosyayı tercih etmiş olduğunuz editörden açın ve terminalde aşağıdaki komutu alıştırarak npm'i projeye dahil edin. <br><br>
 `npm init -y` <br><br>
