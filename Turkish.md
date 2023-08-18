@@ -6,13 +6,13 @@
 `npm init -y` <br><br>
 npm'i projeye dahil ettikten sonra ***package.json*** isminde bir dosyaya sahip olacağız. Dosyanın içeriği başlangıçta aşağıdaki gibi olacak. Daha sonra birkaç değişiklik yapacağız. <br><br>
 
-![1](https://github.com/MetinKb/Instagram-video-downloader-Tgbot/assets/114526516/5c4c78db-3a8e-4a1c-863c-a53bb66e73b4)
+![1](https://github.com/MetinKb/Instagram-media-downloader-Tgbot/assets/114526516/08fb0fb4-e7da-410c-81fe-8fc9140418f5)
 
 `app` isimli bir adet JavaScript dosyası oluşuyoruz. Botumuzu burada kodlayacağız.<br>
 Bu değişikliklerden sonra aşağıdaki gibi bir görüntüye sahip olmamız gerekiyor. <br>
 _Eğer module yapısını kullanmayacaksanız `"type": "module"` kısmını atlayabilirsiniz._ <br><br>
 
-![2](https://github.com/MetinKb/Instagram-video-downloader-Tgbot/assets/114526516/cfc6b515-9234-47dc-bc9c-e7baee15fad1)
+![2](https://github.com/MetinKb/Instagram-media-downloader-Tgbot/assets/114526516/aabb45ce-5998-42b6-9c8b-08507b5af25a)
 
 Normal şartlarda kodlarımızı çalıştırabilmemiz için terminale `node app.js` yazmamız gerekiyor fakat **package.json** dosyasında start komutuna *node app.js* değerini atıyoruz. Bu sayede terminalde sadece `npm start` komutunu işleterek kodlarımızı çalıştırabileceğiz. <br>
 Şimdi de sırada botumuzu kodlarken kullanacağımız kütüphaneleri dosyamıza eklemek var. Aşağıdaki kodu terminalde çalıştırarak [telegraf](https://telegraf.js.org/), [dotenv](https://www.dotenv.org/) ve [axios](https://axios-http.com/docs/intro) kütüphanelerini dosyamıza kuracağız. <br>
@@ -20,11 +20,11 @@ Normal şartlarda kodlarımızı çalıştırabilmemiz için terminale `node app
 **telegraf** kütüphanesini bota bağlanmak için, **axios** kütüphanesini API'ye istek atmak ve dönen cevabı almak için, **dotenv** kütüphanesini de API key ve bot token gibi ortam değişkenlerimizi (environment variables)  gizli tutmak için kullanacağız. Eğer bot tokenınız yoksa almak için Telegram uygulamasından [botfather](https://t.me/botfather)a gidebilirsiniz.
 Dotenv kütüphanesi için `.env` isminde bir dosya oluşturuyoruz. Bu dosyada API keyimizi ve bot tokenimizi tanımlayacağız. Eğer klasörünüzü Github'a yüklemek istiyorsanız ek olarak `.gitignore` isminde bir dosya daha oluşturmanız ve bu dosyanın içerisine _.env_ yazmanız gerekiyor. Böylece klasör Github'a pushlarken Github .env dosyası içerisinde bulunan dosyaları görmezden gelecek. Eğer bu işlemleri gerçekleştirdiyseniz aşağıdaki gibi bir görüntüye sahip olmalısınız. Kütüphane sürümleri değişkenlik gösterebilir. Ben bu repoyu oluştururken en yüksek sürümler aşağıdaki gibiydi.<br><br>
 
-![3](https://github.com/MetinKb/Instagram-video-downloader-Tgbot/assets/114526516/22063d92-2af1-474f-a44e-6a08a95167f0)<br><br>
+![3](https://github.com/MetinKb/Instagram-media-downloader-Tgbot/assets/114526516/aee95ba3-8d01-45dd-ba43-57a9cfc7afb6)<br><br>
 
 .env dosyasının içerisinde değişken tanımlarını aşağıdaki şekilde yapacağız. API key ve bot tokenlerınızı değişkenlere atayın. Ben Rapid API'dan bulduğum bir API kullandım. Kullandığınız API'nin response'una göre kodda birkaç değişiklik yapmanız gerekebilir.<br><br>
 
-![4](https://github.com/MetinKb/Instagram-video-downloader-Tgbot/assets/114526516/a878168e-78bf-4970-88e4-6e1723c68b0d)
+![4](https://github.com/MetinKb/Instagram-media-downloader-Tgbot/assets/114526516/b9e428e0-0194-42ab-b9c6-9dbcc722a037)
 
 ### Şimdi botumuzu kodlamak için her şeye hazırız! O zaman app.js dosyasına geçelim ve başlayalım.<br>
 Yazımızın başında module yapısından bahsetmiştim. Eğer module yapısını kullandıysanız indirdiğimiz NodeJS kütüphanelerini app.js dosyasına aşağıdaki gibi dahil edeceğiz.<br>
