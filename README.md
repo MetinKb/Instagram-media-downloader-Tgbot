@@ -7,3 +7,5 @@ Bilgisayar Programcılığı 1. sınıf öğrencisiyim. Open source code paylaş
 <br><br>
 You have come to the right place to build a telegram bot that downloads Instagram videos with NodeJS! <br>
 There are two annotated texts in Turkish and English. You can take a look if you are interested. ♥
+I am a 1st-year computer programming student. I support open source code sharing, and that's why I wanted to share my acquired knowledge with you. I might make small mistakes since I'm not a professional and I'm still at the very beginning of this journey. I might also face challenges in writing clean or concise code. I ask for your understanding in this regard. Throughout my learning process, I've tried to explain in as much detail as possible, considering the difficulties I've faced. I did this for my friends who are beginners, enthusiastic but struggling, and even for my future colleagues. To the best of my ability and knowledge... I hope you reach the conclusion without getting bored, enjoying your time ♥
+(After making necessary adjustments, I will make my other repositories public too)
