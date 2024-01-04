@@ -30,13 +30,13 @@ bot.command('reels', async ctx => {
         to the response data returned by the API you will use. You will need a API key for these operations. */
         const options = {
             method: 'GET',
-            url: 'https://instagram-downloader-download-instagram-videos-stories.p.rapidapi.com/index',
+            url: 'process.env.API_URL',
             params: {
                 url: reelsLink,
             },
             headers: {
                 'X-RapidAPI-Key': process.env.RAPID_API_KEY,
-                'X-RapidAPI-Host': 'instagram-downloader-download-instagram-videos-stories.p.rapidapi.com',
+                'X-RapidAPI-Host': 'process.env.API_HOST',
             },
         }
 
